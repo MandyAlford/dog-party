@@ -1,0 +1,19 @@
+header {
+  background-color: #75e2e6;
+  border-bottom: solid;
+  border-color: #048eaa;
+  height: 90px;
+
+}
+.nav-links {
+  float:right;
+  padding-top: 35px;
+}
+
+.nav-link {
+  padding: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-family: arial;
+  font-size: 20px;
+}
