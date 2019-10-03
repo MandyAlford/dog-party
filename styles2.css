@@ -1,7 +1,11 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 header {
   background-color: #75e2e6;
   border-bottom: solid;
   border-color: #048eaa;
+  border-width: thick;
   height: 90px;
 
 }
@@ -14,6 +18,45 @@ header {
   padding: 20px;
   text-decoration: none;
   color: #000000;
-  font-family: arial;
+  font-family: 'Open Sans';
   font-size: 20px;
+}
+.dog-icon {
+  width: 70px;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 25px;
+
+}
+h1 {
+  /* font: Open Sans; */
+  font-family:'Open Sans';
+  font-style: normal;
+  font-size: 40px;
+  /* border: solid; */
+  padding:50px;
+  /* color: #ffffff; */
+  text-align: center;
+  margin:  0px;
+
+}
+.circle-image {
+  width: 300px;
+    height: 300px;
+    /* position: relative; */
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid;
+    border-color: #048eaa;
+    border-width: thick;
+    /* vertical-align: middle; */
+    display: block;
+    margin: 0 auto;
+
+}
+main {
+  /* background: url(dog-party/images/dog-party-assets/park.jpg); */
+  background: no-repeat center/100% url(images/dog-party-assets/park.jpg);
+  margin: 0px;
+  /* background-image: url(/images/dog-party-assets/park.jpg); */
 }
