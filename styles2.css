@@ -59,7 +59,7 @@ main {
   /* background: url(dog-party/images/dog-party-assets/park.jpg); */
   background: no-repeat center/100% url(images/dog-party-assets/park.jpg);
   /* margin: 0px; */
-  /* color: #ffffff; */
+  color: #ffffff;
   text-align: center;
   /* background-image: url(/images/dog-party-assets/park.jpg); */
 }
