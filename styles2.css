@@ -107,3 +107,8 @@ input{
   width: 600px;
   margin: 50px;
 }
+
+h2{
+  font-weight: bolder;
+  text-align: center;
+}
