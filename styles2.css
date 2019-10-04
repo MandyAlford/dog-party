@@ -33,6 +33,7 @@ h1 {
   font-family:'Open Sans';
   font-style: normal;
   font-size: 40px;
+  font-weight: normal;
   /* border: solid; */
   padding:50px;
   /* color: #ffffff; */
@@ -57,6 +58,12 @@ h1 {
 main {
   /* background: url(dog-party/images/dog-party-assets/park.jpg); */
   background: no-repeat center/100% url(images/dog-party-assets/park.jpg);
-  margin: 0px;
+  /* margin: 0px; */
+  /* color: #ffffff; */
+  text-align: center;
   /* background-image: url(/images/dog-party-assets/park.jpg); */
+}
+
+.bold{
+  font-weight: bolder;
 }
