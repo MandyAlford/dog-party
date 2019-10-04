@@ -71,6 +71,8 @@ input{
   display: block;
   float: left;
   clear: both;
+  /* margin-top: 0px;
+  margin-bottom: 100px; */
 }
 .bold{
   font-weight: bolder;
@@ -78,4 +80,25 @@ input{
 .grass{
   display: inline-block;
   width:29%;
+}
+
+.submit{
+  border-radius: 02px;
+  background-color: #75e2e6;
+  border-color: #846a29;
+  width:450px;
+  height: 60px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
+}
+
+input{
+  width:425px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
 }
