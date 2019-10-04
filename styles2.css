@@ -34,16 +34,17 @@ h1 {
   font-style: normal;
   font-size: 40px;
   font-weight: normal;
+  margin: 0px;
   /* border: solid; */
-  padding:50px;
+  /* padding:50px; */
   /* color: #ffffff; */
   text-align: center;
   margin:  0px;
 
 }
 .circle-image {
-  width: 300px;
-    height: 300px;
+  width: 200px;
+    height: 200px;
     /* position: relative; */
     overflow: hidden;
     border-radius: 50%;
@@ -62,7 +63,19 @@ main {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
+label{
+  float: left;
+  display: block;
+}
+input{
+  display: block;
+  float: left;
+  clear: both;
+}
 .bold{
   font-weight: bolder;
+}
+.grass{
+  display: inline-block;
+  width:29%;
 }
