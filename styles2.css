@@ -36,7 +36,7 @@ h1 {
   font-weight: normal;
   margin: 0px;
   /* border: solid; */
-  /* padding:50px; */
+  padding:30px;
   /* color: #ffffff; */
   text-align: center;
   margin:  0px;
@@ -73,8 +73,6 @@ input{
   display: block;
   float: left;
   clear: both;
-  /* margin-top: 0px;
-  margin-bottom: 100px; */
 }
 .bold{
   font-weight: bolder;
@@ -93,7 +91,7 @@ input{
   margin: 10px;
   padding: 10px;
   display: block;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 input{
@@ -111,14 +109,15 @@ input{
   /* margin: 3%; */
 }
 p{
-  font-size: 18px;
+  font-size: 22px;
   padding: 20px;
   margin-top: 20px;
 }
 h2{
-  font-weight: bolder;
+  /* font-weight: bolder; */
   text-align: center;
   padding: 30px;
+  font-size: 30px;
 }
 
 footer {
@@ -136,7 +135,7 @@ footer {
   margin: 10px;
   padding: 10px;
   display: block;
-  font-size: 18px;
+  font-size: 22px;
   color: #ffffff;
 }
 .social{
