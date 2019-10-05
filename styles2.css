@@ -104,11 +104,20 @@ input{
 }
 .column {
   float: left;
-  width: 600px;
-  margin: 50px;
+  width: 30%;
+  /* margin: 3%; */
 }
 
 h2{
   font-weight: bolder;
   text-align: center;
+  display:
+}
+
+footer {
+  clear: both;
+  align-items: center;
+  background-color: #048eaa;
+  color: #ffffff;
+  height: 240px;
 }
