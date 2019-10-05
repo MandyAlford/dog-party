@@ -107,13 +107,18 @@ input{
 .column {
   float: left;
   width: 30%;
+  height: 850px;
   /* margin: 3%; */
 }
-
+p{
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 20px;
+}
 h2{
   font-weight: bolder;
   text-align: center;
-  display:
+  padding: 30px;
 }
 
 footer {
@@ -122,4 +127,19 @@ footer {
   background-color: #048eaa;
   color: #ffffff;
   height: 240px;
+}
+.dark{
+  border-radius: 02px;
+  background-color: #048eaa;
+  width:400px;
+  height: 60px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+}
+.social{
+  text-align: center;
+  padding-top: 25px;
 }
