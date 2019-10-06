@@ -73,6 +73,12 @@ input{
   display: block;
   float: left;
   clear: both;
+  width:425px;
+  height: 35px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  font-size: 18px;
 }
 .bold{
   font-weight: bolder;
@@ -94,14 +100,14 @@ input{
   font-size: 20px;
 }
 
-input{
+/* input{
   width:425px;
   height: 35px;
   margin: 10px;
   padding: 10px;
   display: block;
   font-size: 18px;
-}
+} */
 .column {
   float: left;
   width: 30%;
@@ -137,8 +143,38 @@ footer {
   display: block;
   font-size: 22px;
   color: #ffffff;
+
 }
 .social{
   text-align: center;
   padding-top: 25px;
+}
+
+@media screen and (max-width: 1000px){
+  .column{
+    width: auto;
+  }
+  .submit{
+    border-radius: 02px;
+    background-color: #75e2e6;
+    border-color: #846a29;
+    width:300px;
+    height: 45px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+  }
+  input{
+    display: block;
+    float: left;
+    clear: both;
+    width:275px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 18px;
+  }
+  
 }
