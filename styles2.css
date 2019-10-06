@@ -140,7 +140,7 @@ footer {
   height: 60px;
   margin: 10px;
   padding: 10px;
-  display: block;
+  /* display: block; */
   font-size: 22px;
   color: #ffffff;
 
@@ -176,5 +176,11 @@ footer {
     display: block;
     font-size: 18px;
   }
-  
+  .dog-topic{
+  text-align: center;
+  }
+  .dark{
+    width:300px;
+    height: 45px;
+  }
 }
