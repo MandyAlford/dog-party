@@ -44,3 +44,20 @@ factsButton.addEventListener('click', function(event){
     factsContent.style.display="none";
   }
 })
+
+var contentUpdate = document.querySelector('#content-update');
+var contentUpdateButton = document.querySelector('#content-update-button');
+var select = document.querySelector('#select-box');
+var dogHow = document.querySelector('#dog-how');
+var dogWhat = document.querySelector('#dog-what');
+var dogFacts = document.querySelector('#dog-facts');
+
+contentUpdateButton.addEventListener('click', function(event){
+  if (select.value==="how"){
+    dogHow.innerText = contentUpdate.value;
+  } else if (select.value==="what"){
+    dogWhat.innerText = contentUpdate.value;
+  } else if (select.value==="facts"){
+    dogFacts.innerText = contentUpdate.value;
+  }
+})
