@@ -80,7 +80,7 @@ input{
 }
 .grass{
   display: inline-block;
-  width:29%;
+  width:30%;
 }
 
 .submit{
@@ -99,6 +99,7 @@ input{
   float: left;
   width: 30%;
   height: 850px;
+  position: relative;
 }
 p{
   font-size: 22px;
@@ -127,7 +128,10 @@ footer {
   padding: 10px;
   font-size: 22px;
   color: #ffffff;
-
+}
+.dog-topic{
+  position: absolute;
+  bottom: 0;
 }
 .social{
   text-align: center;
