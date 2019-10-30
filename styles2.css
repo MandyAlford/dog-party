@@ -16,20 +16,43 @@ Font: Roboto Slab */
 header {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  align-content: space-between;
+  width: 17%;
   background-color: #9A969C;
 }
 
 .nav-links {
+  text-align: center;
+  font-size: 20px;
+}
 
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
 }
 
 .dog-icon {
-  width: 70px;
+  width: 200px;
   height: auto;
   padding-top: 10px;
   padding-left: 25px;
 }
+
+.tooltip{
+  display: block;
+}
+
+.tooltip-text{
+  visibility: hidden;
+  display: none;
+  /* z-index: 1; */
+}
+
+/* .tooltip:hover .tooltip-text{
+  visibility: visible;
+  display: inline;
+} */
 
 /* Body */
 body {
@@ -44,6 +67,31 @@ main {
   display: flex;
   flex-flow: wrap;
   width: 75%;
+}
+
+h1 {
+  color: #ffffff;
+  /* display: inline; */
+}
+
+label{
+  color: #ffffff;
+}
+
+.dog-name {
+  display: inline;
+}
+
+.circle-image {
+      width: 400px;
+      height: 400px;
+      overflow: hidden;
+      border-radius: 50%;
+      border: solid;
+      border-color: #9A969C;
+      border-width: thick;
+      display: block;
+      margin: 0 auto;
 }
 
 /* Bottom section */
