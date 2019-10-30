@@ -7,11 +7,10 @@ Font: Roboto Slab */
 *,
 *:after,
 *:before {
-  box-sizing: border-box;
   margin: 0px;
   font-family: 'Roboto Slab', sans-serif;
-
-}
+  }
+  
 /* Vertical header/nav Section */
 header {
   display: flex;
@@ -19,40 +18,34 @@ header {
   align-content: space-between;
   width: 17%;
   background-color: #9A969C;
-}
+  }
 
 .nav-links {
   text-align: center;
   font-size: 20px;
-}
+  }
 
 .nav-link {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
-}
+  }
 
 .dog-icon {
   width: 200px;
   height: auto;
   padding-top: 10px;
   padding-left: 25px;
-}
+  }
 
 .tooltip{
   display: block;
-}
+  }
 
 .tooltip-text{
   visibility: hidden;
   display: none;
-  /* z-index: 1; */
-}
-
-/* .tooltip:hover .tooltip-text{
-  visibility: visible;
-  display: inline;
-} */
+  }
 
 /* Body */
 body {
@@ -60,46 +53,56 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #3E3544;
-}
+  }
 
 /* Main Section */
 main {
   display: flex;
   flex-flow: wrap;
   width: 75%;
-}
+  justify-content: space-between;
+  }
 
 h1 {
   color: #ffffff;
-  /* display: inline; */
-}
+  float: right;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 130px;
+  margin-left: 30px;
+  }
 
 label{
   color: #ffffff;
-}
+  }
 
-.dog-name {
-  display: inline;
-}
+.form {
+  display: inline !important;
+  }
 
 .circle-image {
-      width: 400px;
-      height: 400px;
-      overflow: hidden;
-      border-radius: 50%;
-      border: solid;
-      border-color: #9A969C;
-      border-width: thick;
-      display: block;
-      margin: 0 auto;
-}
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: solid;
+  border-color: #9A969C;
+  border-width: thick;
+  display: inline;
+  margin-left: 25px;
+  margin: 20px;
+  }
 
 /* Bottom section */
 .column {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #ffffff;
   color: #000000;
-  /* padding: 13px;
-  width: 100%; */
+}
+
+h2 {
+  text-align:
+}
+
+p {
+  float: right;
 }
