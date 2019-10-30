@@ -1,5 +1,7 @@
 *{
   font-family: 'Open Sans', sans-serif;
+  {margin: 0px;
+  }  
 }
 header {
   background-color: #75e2e6;

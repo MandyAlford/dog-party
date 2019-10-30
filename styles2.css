@@ -1,0 +1,57 @@
+/* Light purple: #9A969C
+Dark purple: #3E3544
+Background color: #ffffff
+White text: #ffffff
+Body text: #000000
+Font: Roboto Slab */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Roboto Slab', sans-serif;
+
+}
+/* Vertical header/nav Section */
+header {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #9A969C;
+}
+
+.nav-links {
+
+}
+
+.dog-icon {
+  width: 70px;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+/* Body */
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #3E3544;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  flex-flow: wrap;
+  width: 75%;
+}
+
+/* Bottom section */
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  color: #000000;
+  /* padding: 13px;
+  width: 100%; */
+}
